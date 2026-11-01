@@ -1,0 +1,662 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Bling Story · by Patrícia Evans</title>
+<meta name="description" content="Original fragrances, Rommanel jewelry, watches and denim in Lethem. Pick your favourites and send your request to Patrícia Evans on WhatsApp.">
+<meta property="og:title" content="Bling Story · by Patrícia Evans"><meta property="og:description" content="Fragrances, jewelry, watches and denim in Lethem. Send your request to Patrícia on WhatsApp."><meta property="og:image" content="img/p029.jpg"><meta property="og:type" content="website">
+<meta name="theme-color" content="#FBF8F7">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600&display=swap">
+<style>:root{padding-top:env(safe-area-inset-top,0px)}body{margin:0}img{max-width:100%}[hidden]{display:none!important}
+/* Studio — a phone-first shopping app: raspberry accent, geometric display, bento categories, thumb tab bar */
+:root{--bg:#FBF8F7;--fg:#1C1427;--muted:#6E6578;--line:#ECE4E8;--surface:#F2ECEF;--card:#FFFFFF;--accent:#C2185B;--accent-fg:#FFFFFF;--danger:#B42318;--soft:#FCE4EE;
+--display:"Syne","Trebuchet MS",system-ui,sans-serif;--display-w:700;--body:"DM Sans",system-ui,-apple-system,"Segoe UI",sans-serif;--r:18px;--r-sm:12px;--r-btn:999px;--r-pill:999px}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#141017;--fg:#F4EFF6;--muted:#A79DB0;--line:#2D2633;--surface:#1E1922;--card:#1E1922;--accent:#FF5C9A;--accent-fg:#1B0B12;--danger:#FF8A7A;--soft:#3A1828;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#141017;--fg:#F4EFF6;--muted:#A79DB0;--line:#2D2633;--surface:#1E1922;--card:#1E1922;--accent:#FF5C9A;--accent-fg:#1B0B12;--danger:#FF8A7A;--soft:#3A1828;color-scheme:dark}
+
+.c-head{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:var(--bg);border-bottom:1px solid var(--line)}
+.c-head__in{display:flex;justify-content:space-between;align-items:center;min-height:60px;gap:10px}
+.c-mark{background:none;border:0;cursor:pointer;font-family:var(--display);font-size:22px;font-weight:600;letter-spacing:-.02em;color:var(--fg);padding:0}
+.c-mark b{color:var(--accent);font-weight:800}
+.c-topnav{display:flex;gap:8px}
+.c-count{background:var(--accent-fg);color:var(--accent);border-radius:9px;min-width:18px;height:18px;font-size:11px;display:inline-grid;place-items:center;padding:0 5px}
+.c-hello{padding-block:24px 8px}
+.c-hello__card{display:flex;gap:20px;align-items:center;padding:24px;border-radius:var(--r);background:var(--soft)}
+.c-hello__av{width:84px;height:84px;font-size:30px}
+.c-hello__txt{min-width:0}
+.c-hello__hi{margin:0;font-weight:600;color:var(--accent)}
+.c-hello__h{font-family:var(--display);font-weight:700;font-size:clamp(26px,4vw,42px);line-height:1.05;margin:6px 0 8px;letter-spacing:-.02em;text-wrap:balance}
+.c-hello__txt p:last-child{margin:0;max-width:56ch}
+.c-bento{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));grid-auto-rows:150px;gap:12px;padding-block:20px}
+.c-tile{position:relative;overflow:hidden;border:0;padding:0;border-radius:var(--r);cursor:pointer;background:var(--surface);text-align:left;color:#fff}
+.c-tile .bs-media{position:absolute;inset:0;aspect-ratio:auto;height:100%;width:100%}
+.c-tile .bs-flag{display:none}
+.c-tile::after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(20,10,20,.7),rgba(20,10,20,0) 60%)}
+.c-tile__l{position:absolute;left:14px;bottom:12px;z-index:1;font-family:var(--display);font-weight:700;font-size:20px;display:flex;flex-direction:column;line-height:1.1}
+.c-tile__l small{font-family:var(--body);font-weight:400;font-size:12px;opacity:.85}
+.c-tile--fragrance{grid-column:span 2;grid-row:span 2}
+.c-tile--watches{grid-row:span 2}
+.c-tile--gifts{grid-column:span 2}
+.c-new{padding-block:16px}
+.c-h2{font-family:var(--display);font-weight:700;font-size:24px;letter-spacing:-.01em;margin:0}
+.c-new__row{display:grid;grid-auto-flow:column;grid-auto-columns:minmax(160px,200px);gap:12px;overflow-x:auto;padding:14px max(16px,calc((100% - 1180px)/2 + 16px)) 6px;scroll-snap-type:x mandatory;scrollbar-width:none}
+.c-shop{padding-block:24px}
+.c-shop__bar{position:sticky;top:calc(60px + env(safe-area-inset-top,0px));z-index:5;background:var(--bg);padding-block:12px;display:flex;flex-direction:column;gap:10px}
+.c-chips{display:flex;gap:8px;overflow-x:auto;scrollbar-width:none}
+.c-chips button{border:1px solid var(--line);background:var(--card);border-radius:999px;padding:8px 14px;cursor:pointer;white-space:nowrap;font-size:14px}
+.c-chips button[aria-pressed="true"]{background:var(--fg);color:var(--bg);border-color:var(--fg)}
+.c-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;margin-top:8px}
+.c-card{scroll-snap-align:start;display:flex;flex-direction:column;background:var(--card);border:1px solid var(--line);border-radius:var(--r);overflow:hidden;padding:0;cursor:pointer;text-align:left;min-width:0}
+.c-card .bs-media{border-radius:0}
+.c-card__b{display:flex;flex-direction:column;gap:2px;padding:10px 12px 14px}
+.c-card__n{font-weight:600;font-size:14px;line-height:1.3}
+.c-card__t{font-size:12px;color:var(--muted)}
+.c-steps{padding-block:32px;display:grid;gap:18px}
+.c-about{display:flex;flex-direction:column;gap:16px;align-items:flex-start;padding-block:28px 40px;border-top:1px solid var(--line)}
+.c-foot__in{display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px;padding-block:20px;font-size:13px;color:var(--muted)}
+.c-link{background:none;border:0;color:var(--muted);text-decoration:underline;cursor:pointer;font-size:13px}
+.c-tabbar{display:none}
+@media (max-width:900px){.c-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.c-bento{grid-template-columns:repeat(2,minmax(0,1fr));grid-auto-rows:130px}.c-tile--watches{grid-row:span 1}}
+@media (max-width:640px){
+ .c-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+ .c-hello__card{flex-direction:column;align-items:flex-start;padding:20px}
+ .c-topnav{display:none}
+ .c-tabbar{display:flex;position:fixed;left:0;right:0;bottom:0;z-index:30;background:var(--card);border-top:1px solid var(--line);padding:6px max(16px,env(safe-area-inset-right,0px)) calc(6px + env(safe-area-inset-bottom,0px)) max(16px,env(safe-area-inset-left,0px));justify-content:space-around}
+ .c-tabbar button{position:relative;display:flex;flex-direction:column;align-items:center;gap:2px;background:none;border:0;font-size:11px;color:var(--muted);padding:6px 16px;cursor:pointer;min-height:48px}
+ .c-tabbar svg{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:1.6}
+ .c-tabbar .bs-badge{top:0;right:6px}
+ .c-foot{padding-bottom:calc(64px + env(safe-area-inset-bottom,0px))}
+ body.bs-managing .c-foot{padding-bottom:0}
+ .bs-toast{bottom:calc(80px + env(safe-area-inset-bottom,0px))}
+}
+
+*,*::before,*::after{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:15px;line-height:1.5;-webkit-font-smoothing:antialiased}
+body.bs-lock{overflow:hidden}
+button,input,select,textarea{font:inherit;color:inherit}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.bs-wrap{max-width:1180px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.bs-eyebrow{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin:0}
+.bs-muted{color:var(--muted)}
+.bs-small{font-size:13px}
+.bs-select{user-select:all;-webkit-user-select:all}
+.bs-media{position:relative;overflow:hidden;background:var(--surface);aspect-ratio:4/5;max-width:100%}
+.bs-media img,.bs-media .bs-illo{width:100%;height:100%;object-fit:cover;display:block}
+.bs-media--xs{width:56px;flex:none;border-radius:var(--r-sm)}
+.bs-media--sm{width:100%;border-radius:var(--r-sm)}
+.bs-media--lg{border-radius:var(--r)}
+.bs-flag{position:absolute;top:10px;left:10px;background:var(--accent);color:var(--accent-fg);font-size:10px;letter-spacing:.12em;text-transform:uppercase;padding:4px 8px;border-radius:var(--r-pill)}
+.bs-flag--out{background:var(--fg);color:var(--bg)}
+.bs-btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:44px;padding:0 20px;border-radius:var(--r-btn);border:1px solid var(--line);background:var(--surface);cursor:pointer;text-decoration:none;font-weight:500;font-size:14px;letter-spacing:.02em;white-space:nowrap}
+.bs-btn--primary{background:var(--accent);border-color:var(--accent);color:var(--accent-fg)}
+.bs-btn--ghost{background:transparent}
+.bs-btn--sm{min-height:36px;padding:0 14px;font-size:13px}
+.bs-btn--wide{width:100%}
+.bs-btn[disabled]{opacity:.45;cursor:not-allowed}
+.bs-iconbtn{position:relative;display:inline-flex;align-items:center;gap:8px;background:none;border:0;cursor:pointer;padding:8px;min-height:44px}
+.bs-badge{position:absolute;top:2px;right:-4px;min-width:18px;height:18px;border-radius:9px;background:var(--accent);color:var(--accent-fg);font-size:11px;display:grid;place-items:center;padding:0 5px;font-variant-numeric:tabular-nums}
+/* sheet */
+.bs-sheet{position:fixed;inset:0;z-index:50;display:flex;justify-content:flex-end}
+.bs-sheet__scrim{position:absolute;inset:0;background:rgba(10,10,12,.48)}
+.bs-sheet__panel{position:relative;width:min(560px,100%);height:100%;overflow-y:auto;background:var(--bg);padding:56px max(20px,env(safe-area-inset-right,0px)) calc(32px + env(safe-area-inset-bottom,0px)) 20px;box-shadow:-20px 0 60px rgba(0,0,0,.18);animation:bs-in .28s ease}
+.bs-sheet[data-kind="product"] .bs-sheet__panel{width:min(960px,100%)}
+@keyframes bs-in{from{transform:translateX(24px);opacity:.4}to{transform:none;opacity:1}}
+@media (max-width:640px){.bs-sheet{align-items:flex-end}.bs-sheet__panel{height:auto;max-height:92%;border-radius:18px 18px 0 0;padding-top:52px;animation:bs-up .28s ease}@keyframes bs-up{from{transform:translateY(30px)}to{transform:none}}}
+@media (prefers-reduced-motion:reduce){.bs-sheet__panel{animation:none}}
+.bs-sheet__close{position:absolute;top:10px;right:max(12px,env(safe-area-inset-right,0px));width:40px;height:40px;border-radius:50%;border:1px solid var(--line);background:var(--bg);font-size:22px;line-height:1;cursor:pointer}
+.bs-sheet__title{font-family:var(--display);font-weight:var(--display-w);font-size:28px;line-height:1.1;margin:4px 0 12px;text-wrap:balance}
+/* product detail */
+.bs-pd{display:grid;grid-template-columns:1fr 1fr;gap:28px}
+.bs-pd__media{min-width:0}
+.bs-pd__info{min-width:0;display:flex;flex-direction:column;gap:10px}
+.bs-pd__name{font-family:var(--display);font-weight:var(--display-w);font-size:30px;line-height:1.1;margin:0;text-wrap:balance}
+.bs-code{margin:0;font-size:12px;color:var(--muted);font-variant-numeric:tabular-nums;letter-spacing:.04em}
+.bs-pd__desc{margin:0}
+.bs-pricenote{margin:0;padding:12px 14px;border-radius:var(--r-sm);background:var(--surface);font-size:13px;color:var(--muted)}
+.bs-pd__actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:6px}
+.bs-pd .bs-pairs{grid-column:1/-1}
+.bs-thumbs{display:flex;gap:8px;margin-top:10px}
+.bs-thumb{width:58px;padding:0;border:1px solid var(--line);border-radius:var(--r-sm);overflow:hidden;cursor:pointer;background:none;opacity:.6}
+.bs-thumb.is-on{opacity:1;border-color:var(--fg)}
+.bs-thumb img{display:block;aspect-ratio:1;object-fit:cover}
+.bs-sizes{border:0;padding:0;margin:4px 0 0;display:flex;flex-wrap:wrap;gap:6px}
+.bs-sizes legend{font-size:12px;color:var(--muted);margin-bottom:6px;padding:0}
+.bs-sizes label{position:relative}
+.bs-sizes input{position:absolute;opacity:0;inset:0}
+.bs-sizes span{display:grid;place-items:center;min-width:44px;height:40px;padding:0 10px;border:1px solid var(--line);border-radius:var(--r-sm);cursor:pointer;font-variant-numeric:tabular-nums}
+.bs-sizes input:checked+span{background:var(--fg);color:var(--bg);border-color:var(--fg)}
+.bs-sizes input:focus-visible+span{outline:2px solid var(--accent);outline-offset:2px}
+.bs-err{color:var(--danger);font-size:13px;margin:0}
+.bs-pairs{border-top:1px solid var(--line);padding-top:18px;margin-top:6px}
+.bs-pairs__row{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:10px}
+.bs-pairs--bag .bs-pairs__row{grid-template-columns:repeat(2,1fr)}
+.bs-pair{display:flex;flex-direction:column;gap:4px;text-align:left;background:none;border:0;padding:0;cursor:pointer;min-width:0}
+.bs-pair__cat{font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-top:4px}
+.bs-pair__name{font-size:13px;line-height:1.3}
+@media (max-width:640px){.bs-pd{grid-template-columns:1fr;gap:18px}.bs-pd__name{font-size:26px}}
+/* bag */
+.bs-lines{list-style:none;padding:0;margin:0 0 8px;display:flex;flex-direction:column}
+.bs-line,.bs-mrow{display:flex;align-items:center;gap:12px;padding:10px 0;border-bottom:1px solid var(--line)}
+.bs-line__txt{flex:1;min-width:0;display:flex;flex-direction:column;font-size:13px}
+.bs-line__name{font-size:14px;font-weight:500}
+.bs-qty{display:flex;align-items:center;gap:6px;font-variant-numeric:tabular-nums}
+.bs-qty button{width:32px;height:32px;border-radius:50%;border:1px solid var(--line);background:none;cursor:pointer}
+.bs-send,.bs-edit,#bs-mset{display:flex;flex-direction:column;gap:8px;margin-top:16px}
+.bs-send label,.bs-edit label,#bs-mset label{font-size:12px;color:var(--muted);margin-top:4px}
+.bs-send input,.bs-send textarea,.bs-edit input,.bs-edit select,.bs-edit textarea,#bs-mset input,#bs-mset textarea{width:100%;padding:11px 12px;border:1px solid var(--line);border-radius:var(--r-sm);background:var(--surface);min-height:44px}
+/* pix */
+.bs-pix{display:flex;flex-direction:column;gap:12px}
+.bs-qr{align-self:flex-start;padding:12px;background:#fff;border-radius:var(--r-sm);border:1px solid var(--line)}
+.bs-qr img,.bs-qr canvas{display:block}
+.bs-kv{margin:0;display:grid;gap:8px}
+.bs-kv div{display:flex;justify-content:space-between;gap:12px;border-bottom:1px solid var(--line);padding-bottom:8px}
+.bs-kv dt{color:var(--muted);font-size:13px}.bs-kv dd{margin:0;font-weight:500;word-break:break-all;text-align:right}
+/* owner + how */
+.bs-owner{display:flex;gap:18px;align-items:flex-start}
+.bs-owner__mono{flex:none;width:72px;height:72px;border-radius:50%;display:grid;place-items:center;background:var(--accent);color:var(--accent-fg);font-family:var(--display);font-size:26px;overflow:hidden}
+.bs-owner__mono img{width:100%;height:100%;object-fit:cover}
+.bs-owner__txt{min-width:0}
+.bs-owner__txt p{margin:4px 0 0}
+.bs-owner__name{font-family:var(--display);font-weight:var(--display-w);font-size:26px;margin:2px 0 0}
+.bs-how{list-style:none;counter-reset:s;padding:0;margin:0;display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.bs-how li{counter-increment:s;display:flex;flex-direction:column;gap:4px;padding-top:14px;border-top:1px solid var(--line)}
+.bs-how li::before{content:counter(s);font-family:var(--display);font-size:22px;color:var(--accent)}
+.bs-how span{color:var(--muted);font-size:14px}
+@media (max-width:640px){.bs-how{grid-template-columns:1fr}}
+/* toast */
+.bs-toast{position:fixed;left:50%;bottom:calc(24px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--fg);color:var(--bg);padding:12px 18px;border-radius:var(--r-pill);font-size:14px;z-index:60;max-width:calc(100% - 32px)}
+/* manager */
+.bs-manage{padding-block:28px 60px}
+.bs-manage__top{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-end;gap:16px}
+.bs-manage__h{font-family:var(--display);font-weight:var(--display-w);font-size:32px;margin:4px 0 0}
+.bs-manage__save{display:flex;gap:10px;flex-wrap:wrap}
+.bs-status{margin:16px 0;padding:10px 14px;border-radius:var(--r-sm);background:var(--surface);font-size:14px}
+.bs-note{margin-top:16px;padding:14px;border:1px solid var(--accent);border-radius:var(--r-sm);font-size:14px}
+.bs-manage__grid{display:grid;grid-template-columns:minmax(0,2fr) minmax(0,1fr);gap:32px}
+.bs-manage__bar{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.bs-h3{font-size:16px;margin:0}
+.bs-mlist{list-style:none;padding:0;margin:10px 0 0}
+.bs-mrow.is-hidden{opacity:.5}
+.bs-mrow__btns{display:flex;gap:6px;flex-wrap:wrap;justify-content:flex-end}
+.bs-msettings{align-self:start;padding:18px;border:1px solid var(--line);border-radius:var(--r)}
+.bs-two{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.bs-two>div{display:flex;flex-direction:column;gap:6px;min-width:0}
+.bs-checks{display:flex;flex-wrap:wrap;gap:14px;margin-top:6px}
+.bs-checks label{display:flex;align-items:center;gap:6px;color:var(--fg)!important;font-size:14px!important}
+.bs-phs{display:flex;flex-wrap:wrap;gap:8px}
+.bs-ph{position:relative;width:72px}
+.bs-ph img{display:block;width:72px;height:90px;object-fit:cover;border-radius:var(--r-sm)}
+.bs-ph button{position:absolute;top:-6px;right:-6px;width:24px;height:24px;border-radius:50%;border:0;background:var(--fg);color:var(--bg);cursor:pointer}
+body.bs-managing .bs-store{display:none}
+@media (max-width:800px){.bs-manage__grid{grid-template-columns:1fr}}
+.bs-mt{margin-top:22px}
+.bs-login{max-width:420px;display:flex;flex-direction:column;gap:12px}
+.bs-ph--wait{display:grid;place-items:center;width:72px;height:90px;border:1px dashed var(--line);border-radius:var(--r-sm);font-size:11px;color:var(--muted)}
+</style></head><body><div id="bs-mount"></div>
+<script type="application/json" id="bs-data">{"version": 1, "settings": {"owner": "Patrícia Evans", "whatsapp": "", "pixKey": "", "pixName": "PATRICIA EVANS", "pixCity": "BOA VISTA", "about": "Patrícia Evans brings original Brazilian brands to Lethem: Natura, O Boticário, Eudora, Rommanel, Mondaine and more. Every piece is chosen by her, and every order is handled by her personally.", "ownerPhoto": ""}, "products": [{"id": "BS-001", "who": "him", "name": "Eudora Pulse Intense", "cat": "fragrance", "style": "evening", "desc": "Warm, intense men's fragrance by Eudora.", "sizes": [], "photos": ["img/p017.jpg", "img/p000.jpg"], "isNew": true, "soldOut": false, "hidden": false}, {"id": "BS-002", "who": "him", "name": "Natura Kaiak collection", "cat": "fragrance", "style": "everyday", "desc": "The Kaiak line for men: Pulso, Aventura and Urbe.", "sizes": [], "photos": ["img/p002.jpg", "img/p011.jpg"], "isNew": false, "soldOut": false, "hidden": false}, {"id": "BS-003", "who": "him", "name": "Natura Kaiak Urbe 100 ml", "cat": "fragrance", "style": "classic", "desc": "Woody, modern men's fragrance.", "sizes": [], "photos": ["img/p050.jpg"], "isNew": false, "soldOut": false, "hidden": false}, {"id": "BS-004", "who": "her", "name": "Natura Ilía collection", "cat": "fragrance", "style": "everyday", "desc": "Light, colourful women's fragrances. Ask Patrícia which ones are in stock.", "sizes": [], "photos": ["img/p004.jpg", "img/p003.jpg"], "isNew": true, "soldOut": false, "hidden": false}, {"id": "BS-005", "who": "him", "name": "O Boticário Arbo Intenso", "cat": "fragrance", "style": "classic", "desc": "Green, woody men's fragrance.", "sizes": [], "photos": ["img/p010.jpg", "img/p009.jpg"], "isNew": false, "soldOut": false, "hidden": false}, {"id": "BS-006", "who": "him", "name": "O Boticário Arbo", "cat": "fragrance", "style": "classic", "desc": "The classic Arbo, fresh and woody.", "sizes": [], "photos": ["img/p054.jpg"], "isNew": false, "soldOut": false, "hidden": false}, {"id": "BS-007", "who": "her", "name": "Natura Humor a Dois", "cat": "fragrance", "style": "evening", "desc": "Fragrance and body lotion for her.", "sizes": [], "photos": ["img/p053.jpg"], "isNew": false, "soldOut": false, "hidden": false}, {"id": "BS-008", "who": "her", "name": "O Boticário Glamour Diva", "cat": "fragrance", "style": "evening", "desc": "Sweet, striking women's fragrance.", "sizes": [], "photos": ["img/p055.jpg"], "isNew": true, "soldOut": false, "hidden": false}, {"id": "BS-009", "who": "her", "name": "Eudora Imensi", "cat": "fragrance", "style": "classic", "desc": "Women's fragrance with matching body lotion.", "sizes": [], "photos": ["img/p047.jpg"], "isNew": false, "soldOut": false, "hidden": false}, {"id": "BS-010", "who": "her", "name": "Natura Una Sense 75 ml", "cat": "fragrance", "style": "evening", "desc": "Elegant women's eau de parfum.", "sizes": [], "photos": ["img/p049.jpg"], "isNew": false, "soldOut": false, "hidden": false}, {"id": "BS-011", "who": "her", "name": "O Boticário Floratta Romance de Verão", "cat": "fragrance", "style": "everyday", "desc": "Floral, light, made for warm days.", "sizes": [], "photos": ["img/p066.jpg"], "isNew": false, "soldOut": false, "hidden": false}, {"id": "BS-012", "who": "him", "name": "O Boticário Portinari Absoluto", "cat": "fragrance", "style": "classic", "desc": "Deep, sophisticated men's fragrance.", "sizes": [], "photos": ["img/p067.jpg"], "isNew": false, "soldOut": false, "hidden": false}, {"id": "BS-013", "who": "him", "name": "Natura Homem", "cat": "fragrance", "style": "evening", "desc": "Men's fragrance for night.", "sizes": [], "photos": ["img/p072.jpg"], "isNew": false, "soldOut": false, "hidden": false}, {"id": "BS-014", "who": "her", "name": "O Boticário Elysée Succès", "cat": "fragrance", "style": "evening", "desc": "Women's eau de parfum, rich and elegant.", "sizes": [], "photos": ["img/p092.jpg"], "isNew": true, "soldOut": false, "hidden": false}, {"id": "BS-015", "who": "her", "name": "Natura aura", "cat": "fragrance", "style": "everyday", "desc": "Women's fragrance, gift-ready.", "sizes": [], "photos": ["img/p001.jpg"], "isNew": false, "soldOut": false, "hidden": false}, {"id": "BS-016", "who": "her", "name": "Eudora Kiss Me gift set", "cat": "gifts", "style": "evening", "desc": "Fragrance and body cream in a gift box.", "sizes": [], "photos": ["img/p089.jpg", "img/p088.jpg"], "isNew": true, "soldOut": false, "hidden": false}, {"id": "BS-017", "who": "him", "name": "O Boticário Malbec gift set", "cat": "gifts", "style": "evening", "desc": "Malbec fragrance, body wash and deodorant.", "sizes": [], "photos": ["img/p065.jpg"], "isNew": false, "soldOut": false, "hidden": false}, {"id": "BS-018", "who": "him", "name": "Men's gift box (fragrance + care)", "cat": "gifts", "style": "evening", "desc": "Boxed men's set, ready to give.", "sizes": [], "photos": ["img/p064.jpg"], "isNew": false, "soldOut": false, "hidden": false}, {"id": "BS-019", "who": "him", "name": "O Boticário Arbo gift set", "cat": "gifts", "style": "classic", "desc": "Arbo fragrance and body spray in a gift box.", "sizes": [], "photos": ["img/p084.jpg"], "isNew": false, "soldOut": false, "hidden": false}, {"id": "BS-020", "who": "him", "name": "Natura Biografia gift set", "cat": "gifts", "style": "everyday", "desc": "Fragrances and soap in a Natura gift bag.", "sizes": [], "photos": ["img/p051.jpg"], "isNew": false, "soldOut": false, "hidden": false}, {"id": "BS-021", "who": "him", "name": "Natura Kaiak orange gift set", "cat": "gifts", "style": "everyday", "desc": "Kaiak fragrance and body spray, gift-wrapped.", "sizes": [], "photos": ["img/p052.jpg"], "isNew": false, "soldOut": false, "hidden": false}, {"id": "BS-022", "who": "her", "name": "Natura Kriska gift set", "cat": "gifts", "style": "evening", "desc": "Kriska fragrance, body spray and lotion.", "sizes": [], "photos": ["img/p016.jpg"], "isNew": false, "soldOut": false, "hidden": false}, {"id": "BS-023", "who": "him", "name": "Natura Essencial gift set", "cat": "gifts", "style": "classic", "desc": "Essencial fragrance with matching care.", "sizes": [], "photos": ["img/p036.jpg"], "isNew": false, "soldOut": false, "hidden": false}, {"id": "BS-024", "who": "all", "name": "Natura Tododia gift box", "cat": "gifts", "style": "everyday", "desc": "Tododia body care, gift-ready.", "sizes": [], "photos": ["img/p085.jpg", "img/p015.jpg"], "isNew": false, "soldOut": false, "hidden": false}, {"id": "BS-025", "who": "him", "name": "Kaiak care basket", "cat": "gifts", "style": "everyday", "desc": "Basket with Kaiak fragrance and care products.", "sizes": [], "photos": ["img/p014.jpg"], "isNew": false, "soldOut": false, "hidden": false}, {"id": "BS-026", "who": "him", "name": "Kaiak Pulso kit with towel", "cat": "gifts", "style": "everyday", "desc": "Kaiak Pulso set with towel and accessories.", "sizes": [], "photos": ["img/p062.jpg"], "isNew": false, "soldOut": false, "hidden": false}, {"id": "BS-027", "who": "him", "name": "Kaiak green gift basket", "cat": "gifts", "style": "classic", "desc": "Large basket with the green Kaiak line.", "sizes": [], "photos": ["img/p063.jpg"], "isNew": false, "soldOut": false, "hidden": false}, {"id": "BS-028", "who": "him", "name": "Men's gift basket", "cat": "gifts", "style": "classic", "desc": "Fragrance, wallet and treats in a basket.", "sizes": [], "photos": ["img/p061.jpg"], "isNew": false, "soldOut": false, "hidden": false}, {"id": "BS-029", "who": "him", "name": "Gentleman's box: shoes, wallet & watch", "cat": "gifts", "style": "classic", "desc": "Leather shoes, wallet and gold watch in one box.", "sizes": [], "photos": ["img/p058.jpg"], "isNew": true, "soldOut": false, "hidden": false}, {"id": "BS-030", "who": "him", "name": "Wallet, belt & watch set", "cat": "gifts", "style": "classic", "desc": "Black leather wallet, belt and watch.", "sizes": [], "photos": ["img/p060.jpg"], "isNew": false, "soldOut": false, "hidden": false}, {"id": "BS-031", "who": "her", "name": "O Boticário boxed kit", "cat": "gifts", "style": "evening", "desc": "Fragrance and care kit in a red gift box.", "sizes": [], "photos": ["img/p095.jpg"], "isNew": false, "soldOut": false, "hidden": false}, {"id": "BS-032", "who": "her", "name": "Mondaine gold watch + jewelry kit", "cat": "watches", "style": "classic", "desc": "Women's gold watch with necklace and earrings.", "sizes": [], "photos": ["img/p029.jpg", "img/p018.jpg"], "isNew": true, "soldOut": false, "hidden": false}, {"id": "BS-033", "who": "her", "name": "Mondaine gold watch + pendant kit", "cat": "watches", "style": "classic", "desc": "Gold watch with crystal pendant necklace and studs.", "sizes": [], "photos": ["img/p030.jpg", "img/p031.jpg", "img/p032.jpg"], "isNew": false, "soldOut": false, "hidden": false}, {"id": "BS-034", "who": "him", "name": "Mondaine women's gold watch", "cat": "watches", "style": "classic", "desc": "Gold steel bracelet, white dial.", "sizes": [], "photos": ["img/p028.jpg", "img/p027.jpg"], "isNew": false, "soldOut": false, "hidden": false}, {"id": "BS-035", "who": "him", "name": "Mondaine men's blue dial", "cat": "watches", "style": "everyday", "desc": "Original Mondaine, steel bracelet, blue dial.", "sizes": [], "photos": ["img/p019.jpg"], "isNew": false, "soldOut": false, "hidden": false}, {"id": "BS-036", "who": "him", "name": "Mondaine men's black dial", "cat": "watches", "style": "everyday", "desc": "Steel watch, black dial with blue hands.", "sizes": [], "photos": ["img/p020.jpg", "img/p021.jpg"], "isNew": false, "soldOut": false, "hidden": false}, {"id": "BS-037", "who": "him", "name": "Condor men's watch + pocket knife", "cat": "watches", "style": "everyday", "desc": "Blue dial steel watch with a multi-tool gift.", "sizes": [], "photos": ["img/p022.jpg"], "isNew": false, "soldOut": false, "hidden": false}, {"id": "BS-038", "who": "her", "name": "Rommanel digital gold watch", "cat": "watches", "style": "evening", "desc": "Gold mesh digital watch, pairs with Rommanel bracelets.", "sizes": [], "photos": ["img/p026.jpg"], "isNew": true, "soldOut": false, "hidden": false}, {"id": "BS-039", "who": "her", "name": "Digital watch + charm necklace kit", "cat": "watches", "style": "everyday", "desc": "Gold digital watch and charm necklace in a box.", "sizes": [], "photos": ["img/p033.jpg"], "isNew": false, "soldOut": false, "hidden": false}, {"id": "BS-040", "who": "her", "name": "Champion digital rose gold", "cat": "watches", "style": "everyday", "desc": "Rose gold mesh strap, red LED display.", "sizes": [], "photos": ["img/p034.jpg"], "isNew": false, "soldOut": false, "hidden": false}, {"id": "BS-041", "who": "her", "name": "Character watch & charm kit", "cat": "watches", "style": "everyday", "desc": "Gold watch with charm bracelet, gift-boxed.", "sizes": [], "photos": ["img/p038.jpg", "img/p071.jpg"], "isNew": false, "soldOut": false, "hidden": false}, {"id": "BS-042", "who": "him", "name": "Mondaine sport blue", "cat": "watches", "style": "everyday", "desc": "Sport watch with blue dial and rubber strap.", "sizes": [], "photos": ["img/p048.jpg"], "isNew": false, "soldOut": false, "hidden": false}, {"id": "BS-043", "who": "him", "name": "Men's black & gold watch", "cat": "watches", "style": "evening", "desc": "Black leather strap, gold case.", "sizes": [], "photos": ["img/p059.jpg"], "isNew": false, "soldOut": false, "hidden": false}, {"id": "BS-044", "who": "him", "name": "Orient men's diver", "cat": "watches", "style": "classic", "desc": "Orient automatic, blue bezel and steel bracelet.", "sizes": [], "photos": ["img/p080.jpg"], "isNew": false, "soldOut": false, "hidden": false}, {"id": "BS-045", "who": "her", "name": "Rommanel gold stud earrings", "cat": "jewelry", "style": "everyday", "desc": "Classic round gold-plated studs.", "sizes": [], "photos": ["img/p005.jpg"], "isNew": false, "soldOut": false, "hidden": false}, {"id": "BS-046", "who": "her", "name": "Rommanel heart & butterfly earrings", "cat": "jewelry", "style": "everyday", "desc": "Choose your favourite pair.", "sizes": [], "photos": ["img/p006.jpg"], "isNew": false, "soldOut": false, "hidden": false}, {"id": "BS-047", "who": "her", "name": "Rommanel crystal drop hoops", "cat": "jewelry", "style": "evening", "desc": "Gold hoops with teardrop crystals.", "sizes": [], "photos": ["img/p025.jpg", "img/p007.jpg"], "isNew": true, "soldOut": false, "hidden": false}, {"id": "BS-048", "who": "her", "name": "Rommanel heart necklace & studs", "cat": "jewelry", "style": "evening", "desc": "Heart pendant with crystal and matching studs.", "sizes": [], "photos": ["img/p008.jpg"], "isNew": false, "soldOut": false, "hidden": false}, {"id": "BS-049", "who": "her", "name": "Rommanel silver necklace & studs", "cat": "jewelry", "style": "classic", "desc": "Delicate silver chain with matching earrings.", "sizes": [], "photos": ["img/p012.jpg"], "isNew": false, "soldOut": false, "hidden": false}, {"id": "BS-050", "who": "her", "name": "Rommanel butterfly necklace & earrings", "cat": "jewelry", "style": "evening", "desc": "Butterfly pendant with lilac stones.", "sizes": [], "photos": ["img/p023.jpg"], "isNew": false, "soldOut": false, "hidden": false}, {"id": "BS-051", "who": "her", "name": "Rommanel hoop earrings", "cat": "jewelry", "style": "classic", "desc": "Gold hoops in several sizes.", "sizes": [], "photos": ["img/p024.jpg"], "isNew": false, "soldOut": false, "hidden": false}, {"id": "BS-052", "who": "her", "name": "Rommanel butterfly studs", "cat": "jewelry", "style": "everyday", "desc": "Small butterfly earrings in gold.", "sizes": [], "photos": ["img/p035.jpg"], "isNew": false, "soldOut": false, "hidden": false}, {"id": "BS-053", "who": "her", "name": "High-waist skinny jeans, light wash", "cat": "clothing", "style": "everyday", "desc": "Stretch denim with lift effect.", "sizes": ["36", "38", "40", "42", "44"], "photos": ["img/p037.jpg"], "isNew": true, "soldOut": false, "hidden": false}, {"id": "BS-054", "who": "her", "name": "Flare jeans, mid wash", "cat": "clothing", "style": "evening", "desc": "Ref. 57628. High waist, flared leg.", "sizes": ["36", "38", "40", "42", "44"], "photos": ["img/p039.jpg"], "isNew": true, "soldOut": false, "hidden": false}, {"id": "BS-055", "who": "her", "name": "Skinny jeans, classic blue", "cat": "clothing", "style": "everyday", "desc": "Ref. 58161. High waist, sculpting fit.", "sizes": ["36", "38", "40", "42", "44"], "photos": ["img/p040.jpg"], "isNew": false, "soldOut": false, "hidden": false}, {"id": "BS-056", "who": "her", "name": "Ripped skinny jeans, light wash", "cat": "clothing", "style": "everyday", "desc": "Ref. 57636. Light wash with subtle rips.", "sizes": ["36", "38", "40", "42", "44"], "photos": ["img/p041.jpg"], "isNew": false, "soldOut": false, "hidden": false}, {"id": "BS-057", "who": "her", "name": "Black skinny jeans", "cat": "clothing", "style": "evening", "desc": "Ref. 58046. Black, high waist, slim leg.", "sizes": ["36", "38", "40", "42", "44"], "photos": ["img/p042.jpg"], "isNew": false, "soldOut": false, "hidden": false}, {"id": "BS-058", "who": "her", "name": "Dark wash high-waist jeans", "cat": "clothing", "style": "evening", "desc": "Deep blue with button waist.", "sizes": ["36", "38", "40", "42", "44"], "photos": ["img/p043.jpg"], "isNew": false, "soldOut": false, "hidden": false}, {"id": "BS-059", "who": "her", "name": "Dark flare jeans", "cat": "clothing", "style": "evening", "desc": "Dark wash flared jeans.", "sizes": ["36", "38", "40", "42", "44"], "photos": ["img/p044.jpg"], "isNew": false, "soldOut": false, "hidden": false}, {"id": "BS-060", "who": "her", "name": "Denim set: vest top & jeans", "cat": "clothing", "style": "everyday", "desc": "Matching denim top and skinny jeans.", "sizes": ["36", "38", "40", "42", "44"], "photos": ["img/p045.jpg"], "isNew": false, "soldOut": false, "hidden": false}, {"id": "BS-061", "who": "her", "name": "Wide-leg jeans", "cat": "clothing", "style": "everyday", "desc": "Relaxed wide leg with cargo details.", "sizes": ["36", "38", "40", "42", "44"], "photos": ["img/p046.jpg"], "isNew": false, "soldOut": false, "hidden": false}, {"id": "BS-062", "who": "her", "name": "Dark push-up skinny jeans", "cat": "clothing", "style": "classic", "desc": "Dark denim, lifts and shapes.", "sizes": ["36", "38", "40", "42", "44"], "photos": ["img/p069.jpg", "img/p070.jpg"], "isNew": false, "soldOut": false, "hidden": false}, {"id": "BS-063", "who": "her", "name": "White chunky sneakers & flip-flops", "cat": "shoes", "style": "everyday", "desc": "Comfortable white sneakers; flip-flops also available.", "sizes": ["34", "35", "36", "37", "38", "39", "40"], "photos": ["img/p013.jpg"], "isNew": false, "soldOut": false, "hidden": false}, {"id": "BS-064", "who": "her", "name": "Black knit sneakers", "cat": "shoes", "style": "everyday", "desc": "Light slip-on sneakers for every day.", "sizes": ["34", "35", "36", "37", "38", "39", "40", "41", "42"], "photos": ["img/p068.jpg"], "isNew": true, "soldOut": false, "hidden": false}], "nextId": 65}</script>
+<script>window.BS_API="";</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+<script>window.BS_THEME = {
+  shell: function (a) {
+    return '<header class="c-head bs-store"><div class="bs-wrap c-head__in"><button type="button" class="c-mark" data-act="cat" data-cat="all">bling<b>story</b></button><nav class="c-topnav"><button type="button" class="bs-btn bs-btn--ghost bs-btn--sm" data-act="pix">Pix</button><button type="button" class="bs-btn bs-btn--primary bs-btn--sm c-reqbtn" data-act="bag">My request <span class="c-count" data-bag-count hidden>0</span></button></nav></div></header>' +
+      '<main id="bs-root"></main>' +
+      '<nav class="c-tabbar bs-store" aria-label="Quick menu"><button type="button" data-act="cat" data-cat="all" data-scroll><svg viewBox="0 0 24 24"><path d="M4 4h7v7H4zM13 4h7v7h-7zM4 13h7v7H4zM13 13h7v7h-7z"/></svg>Shop</button><button type="button" data-act="bag"><svg viewBox="0 0 24 24"><path d="M6 7h12l-1 13H7z"/><path d="M9 7a3 3 0 0 1 6 0"/></svg>Request<span class="bs-badge" data-bag-count hidden>0</span></button><button type="button" data-act="pix"><svg viewBox="0 0 24 24"><path d="M12 3l9 9-9 9-9-9z"/></svg>Pix</button></nav>' +
+      '<footer class="c-foot bs-store"><div class="bs-wrap c-foot__in"><span>Bling Story by ' + a.esc(a.data.settings.owner) + ' · Lethem, Region 9</span>' + (window.BS_API ? '<button type="button" class="c-link" data-act="manage">Store manager</button>' : '') + '</div></footer>';
+  },
+  card: function (p, a) {
+    return '<button type="button" class="c-card" data-act="open" data-id="' + p.id + '">' + a.media(p) + '<span class="c-card__b"><span class="c-card__n">' + a.esc(p.name) + '</span><span class="c-card__t">' + a.catLabel(p.cat) + " · " + a.styleLabel(p.style) + "</span></span></button>";
+  },
+  home: function (a) {
+    var T = this, st = a.state, all = a.live(), s = a.data.settings;
+    var cover = function (cat) { return all.filter(function (p) { return p.cat === cat && p.photos && p.photos.length; })[0]; };
+    var tiles = a.CATS.map(function (c, i) { var p = cover(c.id), n = a.inCat(c.id).length; if (!n) return ""; return '<button type="button" class="c-tile c-tile--' + c.id + '" data-act="cat" data-cat="' + c.id + '" data-scroll>' + (p ? a.media(p) : "") + '<span class="c-tile__l">' + c.label + '<small>' + n + " pieces</small></span></button>"; }).join("");
+    var fresh = all.filter(function (p) { return p.isNew; });
+    var chips = '<div class="c-chips"><button type="button" aria-pressed="' + (st.cat === "all") + '" data-act="cat" data-cat="all">All</button>' + a.CATS.map(function (c) { return a.inCat(c.id).length ? '<button type="button" aria-pressed="' + (st.cat === c.id) + '" data-act="cat" data-cat="' + c.id + '">' + c.label + "</button>" : ""; }).join("") + "</div>";
+    return '<section class="bs-wrap c-hello"><div class="c-hello__card"><div class="bs-owner__mono c-hello__av" aria-hidden="true">' + (s.ownerPhoto ? '<img src="' + s.ownerPhoto + '" alt="">' : "PE") + '</div><div class="c-hello__txt"><p class="c-hello__hi">Hi, I\'m ' + a.esc(s.owner) + '.</p><h1 class="c-hello__h">Pick your favourites. I\'ll send you the prices.</h1><p class="bs-muted">Original brands from Brazil, delivered around Lethem. Add pieces to your request and send it to me on WhatsApp.</p></div></div></section>' +
+      '<section class="bs-wrap c-bento">' + tiles + "</section>" +
+      (fresh.length && st.cat === "all" ? '<section class="c-new"><div class="bs-wrap"><h2 class="c-h2">Just arrived</h2></div><div class="c-new__row">' + fresh.map(function (p) { return T.card(p, a); }).join("") + "</div></section>" : "") +
+      '<section class="bs-wrap c-shop" id="bs-shop"><div class="c-shop__bar"><h2 class="c-h2">' + (st.cat === "all" ? "Everything" : a.catLabel(st.cat)) + "</h2>" + chips + '</div><div class="c-grid">' + a.inCat(st.cat).map(function (p) { return T.card(p, a); }).join("") + "</div></section>" +
+      '<section class="bs-wrap c-steps"><h2 class="c-h2">How it works</h2>' + a.howHTML() + "</section>" +
+      '<section class="bs-wrap c-about">' + a.ownerCard() + (a.hasPix() ? '<button type="button" class="bs-btn bs-btn--ghost" data-act="pix">Pix details for payments</button>' : "") + "</section>";
+  }
+};
+
+/* Bling Story — shared store engine (showcase + request list + WhatsApp + Pix + owner manager) */
+(function () {
+  "use strict";
+  var API = window.BS_API || "";
+  var DATA = JSON.parse(document.getElementById("bs-data").textContent);
+  try { var cached = JSON.parse(localStorage.getItem("bs-catalog") || "null"); if (cached && (cached.version || 0) > (DATA.version || 0)) DATA = cached; } catch (e) {}
+  var T = window.BS_THEME;
+
+  var CATS = [
+    { id: "clothing", label: "Clothing" },
+    { id: "shoes", label: "Shoes" },
+    { id: "jewelry", label: "Jewelry" },
+    { id: "watches", label: "Watches" },
+    { id: "fragrance", label: "Fragrance" },
+    { id: "gifts", label: "Gifts" }
+  ];
+  var STYLES = [
+    { id: "everyday", label: "Everyday" },
+    { id: "classic", label: "Classic" },
+    { id: "evening", label: "Evening" }
+  ];
+  var PAIR = {
+    clothing: ["shoes", "watches", "jewelry", "fragrance"],
+    shoes: ["clothing", "watches", "jewelry"],
+    jewelry: ["watches", "fragrance", "clothing"],
+    watches: ["jewelry", "fragrance", "clothing"],
+    fragrance: ["watches", "jewelry", "gifts"],
+    gifts: ["fragrance", "watches", "jewelry"]
+  };
+  var NEAR = { everyday: ["everyday", "classic"], classic: ["classic", "everyday", "evening"], evening: ["evening", "classic"] };
+
+  var state = { cat: "all", bag: [], view: "shop" };
+  try { state.bag = JSON.parse(localStorage.getItem("bs-bag") || "[]"); } catch (e) { state.bag = []; }
+
+  function $(s, r) { return (r || document).querySelector(s); }
+  function esc(s) { return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]; }); }
+  function catLabel(id) { for (var i = 0; i < CATS.length; i++) if (CATS[i].id === id) return CATS[i].label; return id; }
+  function styleLabel(id) { for (var i = 0; i < STYLES.length; i++) if (STYLES[i].id === id) return STYLES[i].label; return id; }
+  function live() { return DATA.products.filter(function (p) { return !p.hidden; }); }
+  function byId(id) { for (var i = 0; i < DATA.products.length; i++) if (DATA.products[i].id === id) return DATA.products[i]; return null; }
+  function inCat(cat) { return live().filter(function (p) { return cat === "all" || p.cat === cat; }); }
+  function saveBag() { try { localStorage.setItem("bs-bag", JSON.stringify(state.bag)); } catch (e) {} updateCount(); }
+  function updateCount() {
+    var n = state.bag.reduce(function (a, b) { return a + b.qty; }, 0);
+    document.querySelectorAll("[data-bag-count]").forEach(function (el) { el.textContent = n; el.hidden = n === 0; });
+  }
+  function waDigits() { return String(DATA.settings.whatsapp || "").replace(/\D/g, ""); }
+  function waLink(text) { var d = waDigits(); return d ? "https://wa.me/" + d + "?text=" + encodeURIComponent(text) : ""; }
+
+  /* ---------- Illustrations (stand-ins until real photos arrive) ---------- */
+  var ILLO = {
+    dress: '<path d="M175 95h50l12 42q-10 22-12 44l72 222q-99 26-198 0l72-222q-2-22-12-44z" fill="C"/><path d="M178 95l-6-30M222 95l6-30" stroke="C" stroke-width="5"/><path d="M163 181q37 14 74 0" stroke="#0002" stroke-width="3" fill="none"/>',
+    shirt: '<path d="M145 115l45-25h20q0 18 0 0h20l45 25 58 52-30 46-28-18v188H145V195l-28 18-30-46z" fill="C"/><path d="M190 90l20 30 20-30" fill="#fff6"/><path d="M210 120v260" stroke="#0002" stroke-width="3"/><g fill="#0003"><circle cx="210" cy="160" r="4"/><circle cx="210" cy="210" r="4"/><circle cx="210" cy="260" r="4"/></g>',
+    blazer: '<path d="M140 112l50-24h40l50 24 50 60-24 225h-71l-15-160-15 160h-71l-24-225z" fill="C"/><path d="M190 88l20 120 20-120" fill="#fff8"/><path d="M190 88l-12 70 32 50zM230 88l12 70-32 50z" fill="#0003"/>',
+    jeans: '<path d="M140 98h140l14 324h-64l-20-226-20 226h-64z" fill="C"/><path d="M140 118h140" stroke="#0003" stroke-width="5"/><path d="M160 135q20 25 40 0M220 135q20 25 40 0" stroke="#fff5" stroke-width="3" fill="none"/>',
+    sneaker: '<path d="M75 318q2-52 44-74l58-36q32 22 64 28l78 28q42 16 44 56v14H75z" fill="C"/><rect x="70" y="330" width="296" height="26" rx="12" fill="#f4f4f4" stroke="#0002"/><path d="M180 222l22 40M200 214l22 40M220 220l20 38" stroke="#fff9" stroke-width="5"/>',
+    heel: '<path d="M90 300q70-8 122-86q18-12 30 4l96 112v22h-34l-6-14q-80-12-146 2l-10 72h-14l2-84q-36-2-40-28z" fill="C"/><path d="M118 312q60-6 112-80" stroke="#fff6" stroke-width="4" fill="none"/>',
+    boot: '<path d="M155 110h82v178q62 8 96 44v44H155z" fill="C"/><rect x="150" y="372" width="188" height="22" rx="8" fill="#2a2a2a"/><path d="M237 150h-82" stroke="#0003" stroke-width="5"/>',
+    sandal: '<path d="M90 340q20-30 230-20q30 2 30 22q0 12-30 14q-210 10-230-16z" fill="#d9c7ad"/><path d="M150 330q30-80 70-90q40 10 60 85M180 333q30-50 80-6" stroke="C" stroke-width="14" fill="none" stroke-linecap="round"/>',
+    ring: '<ellipse cx="200" cy="300" rx="78" ry="82" fill="none" stroke="C" stroke-width="16"/><path d="M176 212l24-34 24 34-24 20z" fill="#e8f1ff" stroke="#9db4d6" stroke-width="3"/>',
+    necklace: '<path d="M110 120q90 230 180 0" stroke="C" stroke-width="5" fill="none"/><circle cx="200" cy="312" r="22" fill="#f8f4ec" stroke="C" stroke-width="5"/><circle cx="194" cy="305" r="6" fill="#fff"/>',
+    earrings: '<circle cx="150" cy="250" r="60" fill="none" stroke="C" stroke-width="12"/><circle cx="262" cy="270" r="60" fill="none" stroke="C" stroke-width="12"/>',
+    bracelet: '<ellipse cx="200" cy="270" rx="120" ry="64" fill="none" stroke="C" stroke-width="14"/><g fill="#eef4ff" stroke="#9db4d6" stroke-width="2"><circle cx="90" cy="262" r="9"/><circle cx="125" cy="304" r="9"/><circle cx="170" cy="331" r="9"/><circle cx="230" cy="331" r="9"/><circle cx="275" cy="304" r="9"/><circle cx="310" cy="262" r="9"/></g>',
+    watch: '<rect x="170" y="70" width="60" height="120" rx="10" fill="S"/><rect x="170" y="330" width="60" height="120" rx="10" fill="S"/><circle cx="200" cy="260" r="88" fill="C"/><circle cx="200" cy="260" r="72" fill="#fbfaf7"/><path d="M200 260V208M200 260l34 18" stroke="#222" stroke-width="5" stroke-linecap="round"/><g fill="#555"><circle cx="200" cy="196" r="3"/><circle cx="264" cy="260" r="3"/><circle cx="200" cy="324" r="3"/><circle cx="136" cy="260" r="3"/></g><rect x="286" y="250" width="14" height="20" rx="3" fill="C"/>',
+    perfume: '<rect x="168" y="120" width="64" height="56" rx="6" fill="#2a2a2a"/><rect x="186" y="168" width="28" height="22" fill="#bbb"/><rect x="110" y="188" width="180" height="210" rx="34" fill="C" opacity=".88"/><rect x="138" y="262" width="124" height="54" rx="4" fill="#fff9"/><path d="M130 210q10 120 0 170" stroke="#fff6" stroke-width="8" fill="none" stroke-linecap="round"/>'
+  };
+  function illo(p) {
+    var t = (p.illo && p.illo.t) || { clothing: "shirt", shoes: "sneaker", jewelry: "ring", watches: "watch", fragrance: "perfume", gifts: "perfume" }[p.cat] || "ring";
+    var c = (p.illo && p.illo.c) || "#8a8a8a", b = (p.illo && p.illo.b) || "#efeeea", s = (p.illo && p.illo.s) || "#5b4636";
+    return '<svg class="bs-illo" viewBox="0 0 400 500" role="img" aria-label="' + esc(p.name) + '" preserveAspectRatio="xMidYMid slice"><rect width="400" height="500" fill="' + b + '"/><ellipse cx="200" cy="440" rx="140" ry="14" fill="#0000000f"/>' + ILLO[t].replace(/="C"/g, '="' + c + '"').replace(/="S"/g, '="' + s + '"') + "</svg>";
+  }
+  function media(p, cls) {
+    var ph = p.photos && p.photos[0];
+    return '<div class="bs-media ' + (cls || "") + '">' + (ph ? '<img src="' + ph + '" alt="' + esc(p.name) + '" loading="lazy">' : illo(p)) +
+      (p.soldOut ? '<span class="bs-flag bs-flag--out">Sold out</span>' : p.isNew ? '<span class="bs-flag">New</span>' : "") + "</div>";
+  }
+
+  /* ---------- Suggestions: other categories, matching style ---------- */
+  function pairsFor(p, n) {
+    var out = [], used = {};
+    var order = PAIR[p.cat] || [];
+    var styles = NEAR[p.style] || [p.style];
+    order.forEach(function (cat) {
+      if (out.length >= (n || 3)) return;
+      var pool = live().filter(function (q) { return q.cat === cat && !q.soldOut && q.id !== p.id && !used[q.id] && fits(p, q); });
+      for (var i = 0; i < styles.length; i++) {
+        var hit = pool.filter(function (q) { return q.style === styles[i]; })[0];
+        if (hit) { out.push(hit); used[hit.id] = 1; return; }
+      }
+      if (pool[0]) { out.push(pool[0]); used[pool[0].id] = 1; }
+    });
+    return out;
+  }
+  function fits(p, q) { var a = p.who || "all", b = q.who || "all"; return a === "all" || b === "all" || a === b; }
+  var WHO = [{ id: "her", label: "For her" }, { id: "him", label: "For him" }, { id: "all", label: "For everyone" }];
+  function bagSuggestions() {
+    if (!state.bag.length) return [];
+    var cats = {}, ids = {};
+    state.bag.forEach(function (b) { var p = byId(b.id); if (p) { cats[p.cat] = 1; ids[p.id] = 1; } });
+    var out = [];
+    state.bag.forEach(function (b) {
+      var p = byId(b.id); if (!p) return;
+      pairsFor(p, 4).forEach(function (q) { if (!cats[q.cat] && !ids[q.id] && out.length < 2) { out.push(q); ids[q.id] = 1; cats[q.cat] = 1; } });
+    });
+    return out;
+  }
+  function pairLine(p) { return { clothing: "Complete the look", shoes: "Complete the look", jewelry: "Goes well with", watches: "Goes well with", fragrance: "Finish with", gifts: "Add to the gift" }[p.cat]; }
+
+  /* ---------- Sheet (modal) ---------- */
+  var sheet, sheetBody, lastFocus;
+  function openSheet(html, kind) {
+    lastFocus = document.activeElement;
+    sheetBody.innerHTML = html;
+    sheet.setAttribute("data-kind", kind || "");
+    sheet.hidden = false;
+    document.body.classList.add("bs-lock");
+    var f = sheet.querySelector(".bs-sheet__close"); if (f) f.focus();
+  }
+  function closeSheet() {
+    sheet.hidden = true; sheetBody.innerHTML = ""; document.body.classList.remove("bs-lock");
+    if (lastFocus && lastFocus.focus) lastFocus.focus();
+  }
+
+  function productHTML(p) {
+    var gallery = (p.photos && p.photos.length > 1) ? '<div class="bs-thumbs">' + p.photos.map(function (ph, i) { return '<button type="button" class="bs-thumb' + (i ? "" : " is-on") + '" data-act="photo" data-src="' + i + '" aria-label="Photo ' + (i + 1) + '"><img src="' + ph + '" alt=""></button>'; }).join("") + "</div>" : "";
+    var sizes = (p.sizes && p.sizes.length) ? '<fieldset class="bs-sizes"><legend>Size</legend>' + p.sizes.map(function (s, i) { return '<label><input type="radio" name="bs-size" id="bs-size-' + i + '" value="' + esc(s) + '"><span>' + esc(s) + "</span></label>"; }).join("") + "</fieldset>" : "";
+    var pairs = pairsFor(p, 3);
+    var pairHTML = pairs.length ? '<section class="bs-pairs"><h3 class="bs-eyebrow">' + pairLine(p) + '</h3><div class="bs-pairs__row">' + pairs.map(function (q) {
+      return '<button type="button" class="bs-pair" data-act="open" data-id="' + q.id + '">' + media(q, "bs-media--sm") + '<span class="bs-pair__cat">' + catLabel(q.cat) + '</span><span class="bs-pair__name">' + esc(q.name) + "</span></button>";
+    }).join("") + "</div></section>" : "";
+    var ask = waLink("Hi Patrícia! I'd like to know the price of " + p.name + " (" + p.id + ") from Bling Story.");
+    return '<div class="bs-pd" data-id="' + p.id + '"><div class="bs-pd__media" id="bs-pd-media">' + media(p, "bs-media--lg") + gallery + '</div><div class="bs-pd__info">' +
+      '<p class="bs-eyebrow">' + catLabel(p.cat) + " · " + styleLabel(p.style) + '</p><h2 class="bs-pd__name">' + esc(p.name) + '</h2><p class="bs-code">Ref. ' + esc(p.id) + "</p>" +
+      (p.desc ? '<p class="bs-pd__desc">' + esc(p.desc) + "</p>" : "") +
+      '<p class="bs-pricenote">Price on request — Patrícia will confirm price and availability with you.</p>' + sizes +
+      '<div class="bs-pd__actions">' + (p.soldOut ? '<p class="bs-muted">This piece is sold out. Ask Patrícia about similar items.</p>' : '<button type="button" class="bs-btn bs-btn--primary" data-act="add" data-id="' + p.id + '">Add to my request</button>') +
+      (ask ? '<a class="bs-btn bs-btn--ghost" href="' + ask + '" target="_blank" rel="noopener">Ask about price</a>' : "") +
+      '</div><p class="bs-err" id="bs-pd-err" hidden>Choose a size first.</p></div>' + pairHTML + "</div>";
+  }
+  function openProduct(id) { var p = byId(id); if (p) openSheet(productHTML(p), "product"); }
+
+  function bagHTML() {
+    if (!state.bag.length) return '<div class="bs-bag"><h2 class="bs-sheet__title">My request</h2><p class="bs-muted">Your list is empty. Tap any piece and choose <b>Add to my request</b>. When you are ready, send the list to Patrícia on WhatsApp.</p></div>';
+    var rows = state.bag.map(function (b, i) {
+      var p = byId(b.id); if (!p) return "";
+      return '<li class="bs-line">' + media(p, "bs-media--xs") + '<div class="bs-line__txt"><span class="bs-line__name">' + esc(p.name) + '</span><span class="bs-muted">' + catLabel(p.cat) + (b.size ? " · Size " + esc(b.size) : "") + " · Ref. " + p.id + '</span></div><div class="bs-qty"><button type="button" data-act="qty" data-i="' + i + '" data-d="-1" aria-label="Less">−</button><span>' + b.qty + '</span><button type="button" data-act="qty" data-i="' + i + '" data-d="1" aria-label="More">+</button></div></li>';
+    }).join("");
+    var sug = bagSuggestions();
+    var sugHTML = sug.length ? '<section class="bs-pairs bs-pairs--bag"><h3 class="bs-eyebrow">Patrícia suggests</h3><div class="bs-pairs__row">' + sug.map(function (q) { return '<button type="button" class="bs-pair" data-act="open" data-id="' + q.id + '">' + media(q, "bs-media--sm") + '<span class="bs-pair__cat">' + catLabel(q.cat) + '</span><span class="bs-pair__name">' + esc(q.name) + "</span></button>"; }).join("") + "</div></section>" : "";
+    var name = ""; try { name = localStorage.getItem("bs-name") || ""; } catch (e) {}
+    var num = DATA.settings.whatsapp ? '<p class="bs-muted bs-small">Or message Patrícia directly: <b class="bs-select">' + esc(DATA.settings.whatsapp) + "</b></p>" : "";
+    return '<div class="bs-bag"><h2 class="bs-sheet__title">My request</h2><ul class="bs-lines">' + rows + "</ul>" + sugHTML +
+      '<form class="bs-send" id="bs-send"><label for="bs-name">Your name</label><input id="bs-name" required autocomplete="name" value="' + esc(name) + '" placeholder="e.g. Shania Williams">' +
+      '<label for="bs-note">Note for Patrícia (optional)</label><textarea id="bs-note" rows="2" placeholder="Colour, delivery in Lethem, questions…"></textarea>' +
+      '<button class="bs-btn bs-btn--primary bs-btn--wide" type="submit">Send request on WhatsApp</button><p class="bs-muted bs-small">Patrícia replies with prices and availability. Nothing is charged here.</p>' + num + '<p class="bs-err" id="bs-send-err" hidden></p></form></div>';
+  }
+  function requestText(name, note) {
+    var lines = state.bag.map(function (b) { var p = byId(b.id); return p ? "• " + b.qty + "× " + p.name + (b.size ? " (size " + b.size + ")" : "") + " — Ref. " + p.id : ""; }).filter(Boolean);
+    return "Hi Patrícia! This is " + name + ". I'd like to order from Bling Story:\n\n" + lines.join("\n") + (note ? "\n\nNote: " + note : "") + "\n\nCould you send me the prices? Thank you!";
+  }
+
+  /* ---------- Pix (static BR Code, no amount) ---------- */
+  function tlv(id, v) { v = String(v); return id + (v.length < 10 ? "0" : "") + v.length + v; }
+  function crc16(s) { var c = 0xffff; for (var i = 0; i < s.length; i++) { c ^= s.charCodeAt(i) << 8; for (var j = 0; j < 8; j++) c = (c & 0x8000) ? ((c << 1) ^ 0x1021) : (c << 1); c &= 0xffff; } return ("0000" + c.toString(16).toUpperCase()).slice(-4); }
+  function plain(s, n) { return String(s || "").normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/[^A-Za-z0-9 .-]/g, "").toUpperCase().slice(0, n); }
+  function pixCode() {
+    var s = DATA.settings; if (!s.pixKey) return "";
+    var p = tlv("00", "01") + tlv("26", tlv("00", "br.gov.bcb.pix") + tlv("01", s.pixKey.trim())) + tlv("52", "0000") + tlv("53", "986") + tlv("58", "BR") + tlv("59", plain(s.pixName || "PATRICIA EVANS", 25)) + tlv("60", plain(s.pixCity || "BOA VISTA", 15)) + tlv("62", tlv("05", "***")) + "6304";
+    return p + crc16(p);
+  }
+  function pixHTML() {
+    var s = DATA.settings, code = pixCode();
+    if (!code) return '<div class="bs-pix"><h2 class="bs-sheet__title">Pix</h2><p class="bs-muted">Patrícia\'s Pix key will appear here soon. For now, message her on WhatsApp.</p></div>';
+    return '<div class="bs-pix"><p class="bs-eyebrow">Send money by Pix</p><h2 class="bs-sheet__title">Pay ' + esc(s.owner || "Patrícia Evans") + "</h2>" +
+      '<p class="bs-muted">Only use this after Patrícia confirms your order and the amount. Scan in your bank app or copy the code, type the amount, then send her the receipt on WhatsApp.</p>' +
+      '<div class="bs-qr" id="bs-qr" aria-label="Pix QR code"></div>' +
+      '<dl class="bs-kv"><div><dt>Name</dt><dd>' + esc(s.pixName || s.owner) + '</dd></div><div><dt>Pix key</dt><dd class="bs-select">' + esc(s.pixKey) + "</dd></div></dl>" +
+      '<div class="bs-pd__actions"><button type="button" class="bs-btn bs-btn--primary" data-act="copy" data-copy="key">Copy Pix key</button><button type="button" class="bs-btn bs-btn--ghost" data-act="copy" data-copy="code">Copy “Pix copia e cola”</button></div>' +
+      '<p class="bs-muted bs-small" id="bs-copy-msg" aria-live="polite"></p>' +
+      (waDigits() ? '<a class="bs-btn bs-btn--ghost bs-btn--wide" target="_blank" rel="noopener" href="' + waLink("Hi Patrícia! I just sent a Pix. Here is my receipt:") + '">Send receipt to Patrícia</a>' : "") + "</div>";
+  }
+  function openPix() {
+    openSheet(pixHTML(), "pix");
+    var el = $("#bs-qr"), code = pixCode();
+    if (el && code) {
+      if (window.QRCode) { try { new window.QRCode(el, { text: code, width: 200, height: 200, colorDark: "#111111", colorLight: "#ffffff", correctLevel: window.QRCode.CorrectLevel.M }); } catch (e) { el.hidden = true; } }
+      else el.hidden = true;
+    }
+  }
+  function copyText(t, msgEl) {
+    function done(ok) { if (msgEl) msgEl.textContent = ok ? "Copied." : "Select the text above and copy it."; }
+    try { navigator.clipboard.writeText(t).then(function () { done(true); }, function () { done(false); }); } catch (e) { done(false); }
+  }
+
+  /* ---------- Owner block (shared copy) ---------- */
+  function ownerCard() {
+    var s = DATA.settings;
+    return '<div class="bs-owner"><div class="bs-owner__mono" aria-hidden="true">' + (s.ownerPhoto ? '<img src="' + s.ownerPhoto + '" alt="">' : "PE") + '</div><div class="bs-owner__txt"><p class="bs-eyebrow">The person behind the store</p><h3 class="bs-owner__name">' + esc(s.owner) + '</h3><p>' + esc(s.about) + "</p>" +
+      (s.whatsapp ? '<p class="bs-small">WhatsApp <b class="bs-select">' + esc(s.whatsapp) + "</b></p>" : "") + "</div></div>";
+  }
+  function howHTML() {
+    return '<ol class="bs-how"><li><b>Pick</b><span>Browse and add the pieces you like to your request.</span></li><li><b>Send</b><span>Your list goes to Patrícia on WhatsApp in one tap.</span></li><li><b>Confirm</b><span>Patrícia replies with prices, sizes and delivery in Lethem.</span></li></ol>';
+  }
+
+  /* ---------- Server (Google Apps Script robot) ---------- */
+  function call(action, body) {
+    if (!API) return Promise.reject(new Error("The store server is not connected yet."));
+    body = body || {}; body.action = action;
+    return fetch(API, { method: "POST", headers: { "Content-Type": "text/plain;charset=utf-8" }, body: JSON.stringify(body) })
+      .then(function (r) { return r.json(); })
+      .then(function (j) { if (!j || !j.ok) { var e = new Error((j && j.error) || "Something went wrong. Try again."); e.code = j && j.code; throw e; } return j; });
+  }
+  function applyCatalog(c) {
+    if (!c || !c.products || (c.version || 0) <= (DATA.version || 0)) return;
+    DATA.settings = c.settings; DATA.products = c.products; DATA.nextId = c.nextId; DATA.version = c.version;
+    try { localStorage.setItem("bs-catalog", JSON.stringify(DATA)); } catch (e) {}
+    if (state.view !== "manage") render();
+  }
+  function refreshCatalog() {
+    if (!API) return;
+    fetch(API + "?action=catalog&t=" + Date.now()).then(function (r) { return r.json(); }).then(function (j) { if (j && j.ok && j.catalog) applyCatalog(j.catalog); }).catch(function () {});
+  }
+
+  /* ---------- Manager (Patrícia, password) ---------- */
+  var M = { draft: null, dirty: 0, editing: null, status: "", busy: false, pass: "", uploading: 0 };
+  try { M.pass = sessionStorage.getItem("bs-pass") || ""; } catch (e) {}
+  function startManager() {
+    state.view = "manage";
+    if (!M.pass) { render(); return; }
+    if (!M.draft) {
+      var saved = null; try { saved = JSON.parse(sessionStorage.getItem("bs-draft") || "null"); } catch (e) {}
+      M.draft = saved || JSON.parse(JSON.stringify(DATA)); M.dirty = saved ? 1 : 0;
+    }
+    render();
+  }
+  function stash() { try { sessionStorage.setItem("bs-draft", JSON.stringify(M.draft)); } catch (e) {} }
+  function mark() { M.dirty++; stash(); renderManager(); }
+  function loginHTML() {
+    return '<div class="bs-manage bs-login"><p class="bs-eyebrow">Bling Story</p><h1 class="bs-manage__h">Store manager</h1><p class="bs-muted">For Patrícia only. Enter the store password.</p>' +
+      '<form id="bs-login" class="bs-send"><label for="bs-pw">Password</label><input id="bs-pw" type="password" autocomplete="current-password" required>' +
+      '<button class="bs-btn bs-btn--primary bs-btn--wide" type="submit"' + (M.busy ? " disabled" : "") + ">" + (M.busy ? "Checking…" : "Enter") + '</button><p class="bs-err" id="bs-login-err"' + (M.status ? "" : " hidden") + ">" + esc(M.status) + '</p></form><button type="button" class="bs-btn bs-btn--ghost" data-act="m-exit">Back to store</button></div>';
+  }
+  function managerHTML() {
+    if (!M.pass || !M.draft) return loginHTML();
+    var d = M.draft;
+    var rows = d.products.map(function (p, i) {
+      return '<li class="bs-mrow' + (p.hidden ? " is-hidden" : "") + '">' + media(p, "bs-media--xs") + '<div class="bs-line__txt"><span class="bs-line__name">' + esc(p.name) + '</span><span class="bs-muted">' + catLabel(p.cat) + " · " + styleLabel(p.style) + " · " + p.id + (p.hidden ? " · hidden" : "") + (p.soldOut ? " · sold out" : "") + '</span></div><div class="bs-mrow__btns"><button type="button" class="bs-btn bs-btn--sm" data-act="m-edit" data-i="' + i + '">Edit</button><button type="button" class="bs-btn bs-btn--sm bs-btn--ghost" data-act="m-del" data-i="' + i + '">Remove</button></div></li>';
+    }).join("");
+    return '<div class="bs-manage"><div class="bs-manage__top"><div><p class="bs-eyebrow">Store manager</p><h1 class="bs-manage__h">Bling Story · items</h1></div><div class="bs-manage__save"><button type="button" class="bs-btn bs-btn--ghost" data-act="m-exit">Back to store</button><button type="button" class="bs-btn bs-btn--ghost" data-act="m-logout">Lock</button><button type="button" class="bs-btn bs-btn--primary" data-act="m-save"' + (M.dirty && !M.busy && !M.uploading ? "" : " disabled") + '>' + (M.busy ? "Publishing…" : "Publish changes") + "</button></div></div>" +
+      '<p class="bs-status" aria-live="polite">' + esc(M.status || (M.uploading ? "Uploading photos…" : M.dirty ? "You have unpublished changes. Customers see them after you tap Publish changes." : "Everything is published.")) + "</p>" +
+      '<div class="bs-manage__grid"><section><div class="bs-manage__bar"><h2 class="bs-h3">' + d.products.length + ' items</h2><button type="button" class="bs-btn bs-btn--primary bs-btn--sm" data-act="m-new">+ Add item</button></div><ul class="bs-mlist">' + rows + "</ul></section>" +
+      '<section class="bs-msettings"><h2 class="bs-h3">Contact &amp; Pix</h2><form id="bs-mset">' +
+      fld("s-owner", "Owner name shown on the site", d.settings.owner) + fld("s-whats", "WhatsApp (with country code, e.g. +55 95 99999-0000)", d.settings.whatsapp) +
+      fld("s-pixkey", "Pix key (phone as +5595…, CPF, e-mail or random key)", d.settings.pixKey) + fld("s-pixname", "Name on the Pix account", d.settings.pixName) + fld("s-pixcity", "City of the Pix account", d.settings.pixCity) +
+      '<label for="s-about">About Patrícia (shown on the site)</label><textarea id="s-about" rows="3">' + esc(d.settings.about) + "</textarea>" +
+      '<label for="s-photo">Patrícia\'s photo (optional)</label><input type="file" id="s-photo" accept="image/*"><button class="bs-btn bs-btn--sm" type="submit">Apply</button></form>' +
+      '<h2 class="bs-h3 bs-mt">Change password</h2><form id="bs-pwform" class="bs-send"><label for="s-newpw">New password (at least 6 characters)</label><input id="s-newpw" type="password" autocomplete="new-password" minlength="6" required><button class="bs-btn bs-btn--sm" type="submit">Change password</button><p class="bs-muted bs-small" id="s-pwmsg" aria-live="polite"></p></form></section></div></div>';
+  }
+  function fld(id, label, val) { return '<label for="' + id + '">' + label + '</label><input id="' + id + '" value="' + esc(val || "") + '">'; }
+  function editHTML(p, isNew) {
+    var opt = function (list, v) { return list.map(function (o) { return '<option value="' + o.id + '"' + (o.id === v ? " selected" : "") + ">" + o.label + "</option>"; }).join(""); };
+    var photos = (p.photos || []).map(function (ph, i) { return '<div class="bs-ph"><img src="' + ph + '" alt=""><button type="button" data-act="m-phdel" data-i="' + i + '" aria-label="Remove photo">×</button></div>'; }).join("");
+    return '<form class="bs-edit" id="bs-edit"><h2 class="bs-sheet__title">' + (isNew ? "New item" : "Edit " + esc(p.id)) + "</h2>" +
+      '<label for="e-photos">Photos (up to 4; the first one is the cover)</label><div class="bs-phs">' + photos + (M.uploading ? '<div class="bs-ph bs-ph--wait">Uploading…</div>' : "") + '</div><input type="file" id="e-photos" accept="image/*" multiple>' +
+      fld("e-name", "Name", p.name) +
+      '<div class="bs-two"><div><label for="e-cat">Category</label><select id="e-cat">' + opt(CATS, p.cat) + '</select></div><div><label for="e-style">Style (used for suggestions)</label><select id="e-style">' + opt(STYLES, p.style) + "</select></div></div>" +
+      '<label for="e-who">Who is it for (keeps suggestions right)</label><select id="e-who">' + opt(WHO, p.who || "all") + "</select>" +
+      fld("e-sizes", "Sizes, separated by commas (leave empty if none)", (p.sizes || []).join(", ")) +
+      '<label for="e-desc">Short description</label><textarea id="e-desc" rows="3">' + esc(p.desc) + "</textarea>" +
+      '<div class="bs-checks"><label><input type="checkbox" id="e-new"' + (p.isNew ? " checked" : "") + '> Mark as New</label><label><input type="checkbox" id="e-out"' + (p.soldOut ? " checked" : "") + '> Sold out</label><label><input type="checkbox" id="e-hide"' + (p.hidden ? " checked" : "") + "> Hide from store</label></div>" +
+      '<p class="bs-err" id="e-err" hidden></p><div class="bs-pd__actions"><button class="bs-btn bs-btn--primary" type="submit"' + (M.uploading ? " disabled" : "") + '>Save item</button><button type="button" class="bs-btn bs-btn--ghost" data-act="close">Cancel</button></div></form>';
+  }
+  function shrink(file, max) {
+    return new Promise(function (res, rej) {
+      var fr = new FileReader();
+      fr.onload = function () {
+        var img = new Image();
+        img.onload = function () {
+          var k = Math.min(1, max / Math.max(img.width, img.height)), w = Math.round(img.width * k), h = Math.round(img.height * k);
+          var c = document.createElement("canvas"); c.width = w; c.height = h;
+          var x = c.getContext("2d"); x.fillStyle = "#fff"; x.fillRect(0, 0, w, h); x.drawImage(img, 0, 0, w, h);
+          res(c.toDataURL("image/jpeg", 0.78));
+        };
+        img.onerror = function () { rej(new Error("This file is not an image.")); };
+        img.src = fr.result;
+      };
+      fr.onerror = rej; fr.readAsDataURL(file);
+    });
+  }
+  function upload(file) {
+    return shrink(file, 1000).then(function (dataUrl) { return call("upload", { pass: M.pass, data: dataUrl.split(",")[1], name: file.name }); }).then(function (j) { return j.url; });
+  }
+  function nextId(d) { var n = (d.nextId || d.products.length + 1); d.nextId = n + 1; return "BS-" + ("00" + n).slice(-3); }
+  function renderManager() { if (state.view === "manage") $("#bs-root").innerHTML = managerHTML(); }
+  function authFail(err) {
+    if (err && err.code === "auth") { M.pass = ""; M.draft = null; try { sessionStorage.removeItem("bs-pass"); } catch (e) {} M.status = "Wrong password. Enter it again."; render(); return true; }
+    return false;
+  }
+  function publishDraft() {
+    if (M.busy) return;
+    M.busy = true; M.status = "Publishing…"; renderManager();
+    M.draft.version = Math.max(DATA.version || 0, M.draft.version || 0) + 1;
+    call("save", { pass: M.pass, catalog: M.draft }).then(function () {
+      M.busy = false; M.dirty = 0; M.status = "Published. Customers see the changes now.";
+      try { sessionStorage.removeItem("bs-draft"); } catch (e) {}
+      DATA.version = 0; applyCatalog(JSON.parse(JSON.stringify(M.draft)));
+      renderManager();
+    }, function (err) { M.busy = false; stash(); if (!authFail(err)) { M.status = err.message || "Could not publish. Check the internet and try again."; renderManager(); } });
+  }
+
+  /* ---------- Render & events ---------- */
+  function render() {
+    var root = $("#bs-root");
+    if (state.view === "manage") { root.innerHTML = managerHTML(); document.body.classList.add("bs-managing"); }
+    else { document.body.classList.remove("bs-managing"); root.innerHTML = T.home(api); }
+    updateCount();
+  }
+  function route() { if (location.hash === "#manage") startManager(); else if (state.view === "manage") { state.view = "shop"; render(); } }
+
+  var api = {
+    data: DATA, state: state, CATS: CATS, esc: esc, media: media, catLabel: catLabel, styleLabel: styleLabel, live: live, inCat: inCat,
+    ownerCard: ownerCard, howHTML: howHTML, pairsFor: pairsFor, byId: byId, hasPix: function () { return !!DATA.settings.pixKey; },
+    card: function (p) { return T.card ? T.card(p, api) : ""; }
+  };
+
+  function boot() {
+    var app = document.getElementById("bs-mount");
+    app.innerHTML = T.shell(api) + '<div class="bs-sheet" id="bs-sheet" hidden role="dialog" aria-modal="true"><div class="bs-sheet__scrim" data-act="close"></div><div class="bs-sheet__panel"><button type="button" class="bs-sheet__close" data-act="close" aria-label="Close">×</button><div id="bs-sheet-body"></div></div></div><div class="bs-toast" id="bs-toast" role="status" aria-live="polite" hidden></div>';
+    sheet = $("#bs-sheet"); sheetBody = $("#bs-sheet-body");
+    document.addEventListener("click", onClick);
+    document.addEventListener("submit", onSubmit);
+    document.addEventListener("change", onChange);
+    document.addEventListener("keydown", function (e) { if (e.key === "Escape" && !sheet.hidden) closeSheet(); });
+    window.addEventListener("hashchange", route);
+    render(); route(); refreshCatalog();
+  }
+  var toastT;
+  function toast(msg) { var t = $("#bs-toast"); t.textContent = msg; t.hidden = false; clearTimeout(toastT); toastT = setTimeout(function () { t.hidden = true; }, 2200); }
+
+  function onClick(e) {
+    var el = e.target.closest("[data-act]"); if (!el) return;
+    var a = el.getAttribute("data-act");
+    if (a === "open") { e.preventDefault(); openProduct(el.getAttribute("data-id")); }
+    else if (a === "close") { closeSheet(); M.editing = null; }
+    else if (a === "cat") { state.cat = el.getAttribute("data-cat"); render(); var t = $("#bs-shop"); if (t && el.hasAttribute("data-scroll")) t.scrollIntoView({ behavior: "smooth", block: "start" }); }
+    else if (a === "bag") openSheet(bagHTML(), "bag");
+    else if (a === "pix") openPix();
+    else if (a === "photo") {
+      var p = byId($(".bs-pd").getAttribute("data-id")), i = +el.getAttribute("data-src");
+      var m = $("#bs-pd-media .bs-media img"); if (m) m.src = p.photos[i];
+      document.querySelectorAll(".bs-thumb").forEach(function (b, j) { b.classList.toggle("is-on", j === i); });
+    }
+    else if (a === "add") {
+      var id = el.getAttribute("data-id"), pr = byId(id), size = "";
+      if (pr.sizes && pr.sizes.length) { var r = $('input[name="bs-size"]:checked'); if (!r) { $("#bs-pd-err").hidden = false; return; } size = r.value; }
+      var ex = state.bag.filter(function (b) { return b.id === id && b.size === size; })[0];
+      if (ex) ex.qty++; else state.bag.push({ id: id, size: size, qty: 1 });
+      saveBag(); closeSheet(); toast(pr.name + " added to your request");
+    }
+    else if (a === "qty") {
+      var b = state.bag[+el.getAttribute("data-i")]; b.qty += +el.getAttribute("data-d");
+      if (b.qty <= 0) state.bag.splice(+el.getAttribute("data-i"), 1);
+      saveBag(); sheetBody.innerHTML = bagHTML();
+    }
+    else if (a === "copy") { copyText(el.getAttribute("data-copy") === "key" ? DATA.settings.pixKey : pixCode(), $("#bs-copy-msg")); }
+    else if (a === "manage") { location.hash = "manage"; }
+    else if (a === "m-exit") { history.replaceState(null, "", location.pathname + location.search); state.view = "shop"; render(); }
+    else if (a === "m-new") { M.editing = { isNew: true, p: { id: "", name: "", cat: "clothing", style: "everyday", who: "her", sizes: [], desc: "", photos: [], isNew: true } }; openSheet(editHTML(M.editing.p, true), "edit"); }
+    else if (a === "m-edit") { var i2 = +el.getAttribute("data-i"); M.editing = { i: i2, p: JSON.parse(JSON.stringify(M.draft.products[i2])) }; openSheet(editHTML(M.editing.p, false), "edit"); }
+    else if (a === "m-del") {
+      var i3 = +el.getAttribute("data-i");
+      if (el.getAttribute("data-sure")) { M.draft.products.splice(i3, 1); mark(); }
+      else { el.setAttribute("data-sure", "1"); el.textContent = "Tap again to remove"; }
+    }
+    else if (a === "m-phdel") { M.editing.p.photos.splice(+el.getAttribute("data-i"), 1); keepForm(); sheetBody.innerHTML = editHTML(M.editing.p, M.editing.isNew); }
+    else if (a === "m-save") publishDraft();
+    else if (a === "m-logout") { M.pass = ""; M.draft = null; M.status = ""; try { sessionStorage.removeItem("bs-pass"); } catch (x) {} render(); }
+  }
+  function keepForm() {
+    var p = M.editing.p, v = function (id) { var x = document.getElementById(id); return x ? x.value : ""; };
+    p.name = v("e-name"); p.who = v("e-who") || "all"; p.cat = v("e-cat"); p.style = v("e-style"); p.desc = v("e-desc");
+    p.sizes = v("e-sizes").split(",").map(function (s) { return s.trim(); }).filter(Boolean);
+    p.isNew = !!($("#e-new") || {}).checked; p.soldOut = !!($("#e-out") || {}).checked; p.hidden = !!($("#e-hide") || {}).checked;
+  }
+  function onChange(e) {
+    if (e.target.id === "e-photos") {
+      keepForm();
+      var files = Array.prototype.slice.call(e.target.files || [], 0, Math.max(0, 4 - M.editing.p.photos.length));
+      if (!files.length) return;
+      var ed = M.editing; M.uploading += files.length; sheetBody.innerHTML = editHTML(ed.p, ed.isNew);
+      files.reduce(function (chain, f) {
+        return chain.then(function () { return upload(f).then(function (url) { ed.p.photos.push(url); }); }).then(function () { M.uploading--; }, function (err) { M.uploading--; if (authFail(err)) throw err; ed.err = err.message; });
+      }, Promise.resolve()).then(function () {
+        if (M.editing === ed) { sheetBody.innerHTML = editHTML(ed.p, ed.isNew); if (ed.err) { var x = $("#e-err"); x.textContent = "Some photos did not upload: " + ed.err; x.hidden = false; ed.err = null; } }
+      }, function () {});
+    }
+  }
+  function onSubmit(e) {
+    var f = e.target;
+    if (f.id === "bs-send") {
+      e.preventDefault();
+      var name = $("#bs-name").value.trim(), note = $("#bs-note").value.trim();
+      try { localStorage.setItem("bs-name", name); } catch (x) {}
+      var link = waLink(requestText(name, note)), err = $("#bs-send-err");
+      if (!link) { err.textContent = "Patrícia's WhatsApp number is not set yet."; err.hidden = false; return; }
+      var aEl = document.createElement("a"); aEl.href = link; aEl.target = "_blank"; aEl.rel = "noopener"; document.body.appendChild(aEl); aEl.click(); aEl.remove();
+      err.innerHTML = 'If WhatsApp did not open, <a href="' + link + '" target="_blank" rel="noopener">tap here</a>.'; err.hidden = false;
+    } else if (f.id === "bs-edit") {
+      e.preventDefault(); keepForm();
+      var p = M.editing.p, er = $("#e-err");
+      if (!p.name.trim()) { er.textContent = "Give the item a name."; er.hidden = false; return; }
+      if (M.editing.isNew) { p.id = nextId(M.draft); if (!p.photos.length) p.illo = null; M.draft.products.unshift(p); }
+      else M.draft.products[M.editing.i] = p;
+      M.editing = null; closeSheet(); mark();
+    } else if (f.id === "bs-mset") {
+      e.preventDefault();
+      var s = M.draft.settings, g = function (id) { return document.getElementById(id).value.trim(); };
+      s.owner = g("s-owner"); s.whatsapp = g("s-whats"); s.pixKey = g("s-pixkey"); s.pixName = g("s-pixname"); s.pixCity = g("s-pixcity"); s.about = g("s-about");
+      var file = $("#s-photo").files[0];
+      if (file) { M.status = "Uploading photo…"; renderManager(); upload(file).then(function (u) { s.ownerPhoto = u; M.status = ""; mark(); }, function (err) { if (!authFail(err)) { M.status = err.message; renderManager(); } }); } else mark();
+    } else if (f.id === "bs-login") {
+      e.preventDefault();
+      var pw = $("#bs-pw").value; M.busy = true; M.status = ""; renderManager();
+      call("login", { pass: pw }).then(function (j) {
+        M.busy = false; M.pass = pw; try { sessionStorage.setItem("bs-pass", pw); } catch (x) {}
+        if (j.catalog) applyCatalog(j.catalog);
+        M.draft = JSON.parse(JSON.stringify(DATA)); M.dirty = 0; render();
+      }, function (err) { M.busy = false; M.status = err.code === "auth" ? "Wrong password. Try again." : (err.message || "Could not connect. Check the internet."); renderManager(); });
+    } else if (f.id === "bs-pwform") {
+      e.preventDefault();
+      var np = $("#s-newpw").value, msg = $("#s-pwmsg");
+      if (np.length < 6) { msg.textContent = "Use at least 6 characters."; return; }
+      msg.textContent = "Saving…";
+      call("setpass", { pass: M.pass, newPass: np }).then(function () { M.pass = np; try { sessionStorage.setItem("bs-pass", np); } catch (x) {} msg.textContent = "Password changed. Use the new one next time."; $("#s-newpw").value = ""; }, function (err) { if (!authFail(err)) msg.textContent = err.message; });
+    }
+  }
+
+  if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", boot); else boot();
+})();
+</script></body></html>
